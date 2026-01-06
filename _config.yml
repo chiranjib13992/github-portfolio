@@ -1,0 +1,43 @@
+# Site settings
+title: Chiranjib Mohapatra
+description: Full Stack Developer | React, Node.js, Electron, Cloud & Backend Systems
+url: "https://chiranjib13992.github.io"
+baseurl: "/portfolio"   # change to "" if repo name is username.github.io
+
+# Author
+author:
+  name: Chiranjib Mohapatra
+  email: your-email@example.com
+
+# Theme (GitHub Pages supported)
+theme: minima
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins (GitHub Pages allowed plugins only)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO
+social:
+  github: chiranjib13992
+  linkedin: chiranjib-mohapatra
+  facebook: cmohapatramilan1
+
+# Exclude files from build
+exclude:
+  - node_modules
+  - README.md
+  - package.json
+  - package-lock.json
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
